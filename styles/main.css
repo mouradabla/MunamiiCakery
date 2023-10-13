@@ -40,7 +40,7 @@ body {
     width: 20%;
     height: auto;
     margin: 10px 0 10px 10px;
-    animation: rotate 10s linear infinite;
+    animation: rotate 20s linear infinite;
 }
 
 .nav {
@@ -51,6 +51,7 @@ body {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -60,7 +61,7 @@ body {
 
 .nav a {
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #4A5759;
     text-decoration: none;
     text-transform: uppercase;
@@ -162,6 +163,11 @@ footer img {
         font-size: 1.5rem;
         align-self: center;
         order: 3;
+    }
+
+    .nav a {
+        font-size: 1rem;
+        padding: 0;
     }
 }
 

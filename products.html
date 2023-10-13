@@ -4,8 +4,22 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles/main.css">
         <title>Munamii Cakery | Our Products</title>
+
+        <!-- Swiper Slider Js Library -->
+        <script src="./scripts/cdn.jsdelivr.net_npm_swiper@10.3.1_swiper-bundle.min.js" defer></script>
+
+        <!-- JavaScript -->
+        <script src="./scripts/slider.js" defer></script>
+
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="./styles/cdn.jsdelivr.net_npm_swiper@10.3.1_swiper-bundle.min.css" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/products.css">
+
+
     </head>
 
     <body>
@@ -22,111 +36,270 @@
             </nav>
         </header>
         <main class="main products">
-            <section>
+            <section class="cupcake-products">
                 <h2>Cupcakes</h2>
-                <div>
-                    <figure>
-                        <img src="./images/logo.png" alt="">
-                        <figcaption>
-                            <h3>Header</h3>
-                            <p>Text</p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/pink-cupcake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/pink-cupcake.jpg" alt="pink sprinkle cupcake with pink icing on top">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Pink Sprinkle Cupcakes</h3>
+                                    <p class="description">Indulge in the sweetness and fun of our delicious pink sprinkle cupcakes. Our cupcakes are made with
+                                        the freshest ingredients and baked to perfection. The moist and fluffy cake is topped with a generous swirl of sweet and
+                                        creamy pink frosting and plenty of pink sprinkles. It's the perfect treat for any occasion, especially birthdays,
+                                        Valentine's Day, and baby showers!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/frosting-cupcake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/frosting-cupcake.jpg" alt="Pink frosting cupcake with cherry on top">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Delicious Pink Frosting Cupcake</h3>
+                                    <p class="description">This delicious pink frosting cupcake is the perfect treat for any occasion. The moist and fluffy cake
+                                        is topped with a generous swirl of sweet and creamy pink frosting and a fresh cherry. It's the perfect way to satisfy
+                                        your sweet tooth!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/redvelvet-cupcake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/redvelvet-cupcake.jpg" alt="Red velvet cupcake with cream cheese frosting">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Red Velvet Cupcake</h3>
+                                    <p class="description">Indulge in the classic flavor of a red velvet cupcake with our rich and creamy cream cheese frosting.
+                                        Our cupcakes are made with the freshest ingredients and baked to perfection. Enjoy one today and experience the
+                                        deliciousness for yourself!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/chocolate-cupcake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/chocolate-cupcake.jpg"
+                                            alt="chocolate cupcake with white icing on white ceramic plate">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Chocolate Cupcake</h3>
+                                    <p class="description">Satisfy your sweet tooth with our delicious chocolate cupcake. Our cupcakes
+                                        are made with the freshest ingredients and baked to perfection. The moist and fluffy cake is topped with a generous
+                                        swirl of sweet and creamy frosting and a fresh ingredients. It's the perfect treat for any occasion!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/fluffy-white-icing-cupcakes.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/fluffy-white-icing-cupcakes.jpg" alt="Cupcakes with white icing on top">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Fluffy White Icing Cupcakes</h3>
+                                    <p class="description">Indulge in the light and fluffy goodness of our white icing cupcakes. These cupcakes are made with
+                                        the freshest ingredients and baked to perfection. The moist and fluffy cake is topped with a generous swirl of sweet and
+                                        creamy white icing. It's the perfect treat for any occasion!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/chocolate-chip- cupcakes.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/chocolate-chip- cupcakes.jpg" alt="Chocolate Chip Cupcakes">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Chocolate Chip Cupcakes</h3>
+                                    <p class="description">Satisfy your sweet tooth with our delicious chocolate chip cupcakes. Our cupcakes are made with the
+                                        freshest ingredients and baked to perfection. The moist and fluffy chocolate cake is topped with a generous swirl of
+                                        sweet and creamy chocolate frosting and plenty of chocolate chips. It's the perfect treat for any chocolate lover!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/cherry-cupcake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/cherry-cupcake.jpg" alt="Cherry Cupcakes with Cherry on top">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Cherry Cupcake</h3>
+                                    <p class="description">Add a touch of fun and festivity to your day with our delicious rainbow sprinkle cupcakes. Our
+                                        cupcakes are made with the freshest ingredients and baked to perfection. The moist and fluffy vanilla cake is topped
+                                        with a generous swirl of sweet and creamy vanilla frosting and plenty of rainbow sprinkles. It's the perfect treat for
+                                        any occasion!</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section>
+            <section class="wedding-products">
                 <h2>Wedding Cakes</h2>
-                <div>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="">
-                        <figcaption>
-                            <p></p>
-                        </figcaption>
-                    </figure>
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/white-flower-cake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/white-flower-cake.jpg" alt="White Wedding Cake with Flowers">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">White Wedding Cake with Flowers</h3>
+                                    <p class="description">Celebrate your special day with our beautiful and delicious white wedding cake with flowers. Our
+                                        cakes are made with the freshest ingredients and baked to perfection. The moist and fluffy vanilla cake is covered in a
+                                        layer of sweet and creamy white buttercream frosting and decorated with a variety of fresh flowers. It's the perfect
+                                        cake for your wedding day!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/figs-cake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/figs-cake.jpg" alt="Rustic wedding cake with figs and pistachios">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Wedding Cake with Figs and Pistachios</h3>
+                                    <p class="description">Celebrate your special day with our rustic and delicious wedding cake with figs and pistachios. Our
+                                        cakes are made with the freshest ingredients and baked to perfection. The moist and fluffy vanilla cake is covered in a
+                                        layer of sweet and creamy buttercream frosting and decorated with fresh figs, pistachios, and greenery. It's the perfect
+                                        cake for your rustic wedding!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/gold-letter-w-cake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/gold-letter-w-cake.jpg" alt="Gold Letter W Wedding Cake">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Gold Letter W Wedding Cake</h3>
+                                    <p class="description">Celebrate your special day with our elegant and sophisticated gold letter W wedding cake. Our cakes
+                                        are made with the freshest ingredients and baked to perfection. The moist and fluffy vanilla cake is covered in a layer
+                                        of sweet and creamy white buttercream frosting and decorated with a large gold letter W. It's the perfect cake for your
+                                        wedding day!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/semi-naked-cake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/semi-naked-cake.jpg" alt="Semi-Naked Wedding Cake with Fresh Flowers">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Semi-Naked Wedding Cake with Fresh Flowers</h3>
+                                    <p class="description">Celebrate your special day with our beautiful and delicious semi-naked wedding cake with fresh
+                                        flowers. Our cakes are made with the freshest ingredients and baked to perfection. The moist and fluffy vanilla cake is
+                                        covered in a thin layer of buttercream frosting and decorated with a variety of fresh flowers. It's the perfect cake for
+                                        your wedding day!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/floral-cake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/floral-cake.jpg" alt="Pink and White Floral Wedding Cake">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Pink and White Floral Wedding Cake</h3>
+                                    <p class="description">Celebrate your special day with our beautiful and delicious pink and white floral wedding cake. Our
+                                        cakes are made with the freshest ingredients and baked to perfection. The moist and fluffy vanilla cake is covered in a
+                                        layer of sweet and creamy white buttercream frosting and decorated with a variety of fresh pink and white flowers. It's
+                                        the perfect cake for your wedding day!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/cascading-floral-cake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/cascading-floral-cake.jpg" alt="Two-tier wedding cake with cascading flowers">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Cascading Floral Wedding Cake</h3>
+                                    <p class="description">Celebrate your special day with our beautiful and delicious cascading floral wedding cake. Our cakes
+                                        are made with the freshest ingredients and baked to perfection. The two-tier vanilla cake is covered in a layer of sweet
+                                        and creamy white buttercream frosting and decorated with a cascading arrangement of fresh flowers. It's the perfect cake
+                                        for your wedding day!</p>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"><img src="./images/berry-and-baby-breath-cake.jpg" alt="blurred"></span>
+
+                                    <div class="card-image">
+                                        <img class="card-img" src="./images/berry-and-baby-breath-cake.jpg" alt="Berry and Baby's Breath Wedding Cake">
+                                    </div>
+                                </div>
+
+                                <figcaption class="card-content">
+                                    <h3 class="title">Berry and Baby's Breath Wedding Cake</h3>
+                                    <p class="description">Celebrate your special day with our beautiful and delicious berry and baby's breath wedding cake. Our
+                                        cakes are made with the freshest ingredients and baked to perfection. The moist and fluffy vanilla cake is covered in a
+                                        layer of sweet and creamy white buttercream frosting and decorated with a variety of fresh berries and baby's breath.
+                                        It's the perfect cake for your wedding day!</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>

@@ -1,0 +1,149 @@
+.main.products {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products>section {
+    flex-direction: column;
+    flex: 1 1 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.wedding-products {
+    display: flex;
+    background-image: url(../images/bg-wedding.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cupcake-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/bg-cupcakeh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.products h2 {
+    color: white;
+    text-align: center;
+}
+
+.slide-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    max-width: 330px;
+    width: 100%;
+    /* background-color: #f7e9e3ab; */
+    padding: 60px;
+}
+
+.slide-content {
+    /* margin: 0 40px; */
+}
+
+.card {
+    margin: 0;
+    width: 270px;
+    border-radius: 25px;
+    background-color: #f7e9e3;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #a38762;
+    border-radius: 25px 25px 25px 0;
+}
+
+.overlay img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #a38762;
+}
+
+.overlay::after {
+    border-radius: 25px 0 0 0;
+    background-color: #f7e9e3;
+}
+
+.card-image {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #a38762;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #4A5759;
+}
+
+.description {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #6e482d;
+}
+
+/* Adjust the navigation menu on mobile devices */
+@media (max-width: 425px) {
+    .slide-container {
+        max-width: 230px;
+        padding: 60px;
+    }
+
+    .card-content {
+        padding: 23px 14px;
+    }
+
+    .title {
+        font-size: 0.8rem;
+    }
+}
